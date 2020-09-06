@@ -16,6 +16,8 @@ namespace HegaCore.Editor
             Ensure(manifest);
 
             File.WriteAllText($"{filePath}", manifest.Serialize().ToString(2));
+
+            AssetDatabase.Refresh();
         }
 
         private static void Ensure(Manifest manifest)
@@ -45,6 +47,63 @@ namespace HegaCore.Editor
             d["com.littlebigfun.addressable-importer"] = "0.9.2";
             d["com.sabresaurus.playerprefseditor"] = "1.2.0";
             d["com.merlin.easyeventeditor"] = "1.0.3";
+
+            var registry = EnsureRegistry(manifest);
+
+            Ensure(registry,
+                "com.cysharp.unitask",
+                "com.grashaar.uiman-textmeshpro",
+                "com.grashaar.unity-googlespreadsheet",
+                "com.grashaar.unity-objectpooling",
+                "com.kyubuns.animetask",
+                "com.laicasaane.texttyper",
+                "com.laicasaane.tinycsvparser",
+                "com.laicasaane.unity-addressables-manager",
+                "com.laicasaane.unity-quastatemachine",
+                "com.laicasaane.unity-supplements",
+                "com.littlebigfun.addressable-importer",
+                "com.live2d.cubism-cubismloader",
+                "com.merlin.easyeventeditor",
+                "com.minhdu.uiman",
+                "com.openupm",
+                "com.sabresaurus.playerprefseditor",
+                "com.zaikman.unity-editorconfig",
+                "jillejr.newtonsoft.json-for-unity"
+            );
+        }
+
+        private static ScopedRegistry EnsureRegistry(Manifest manifest)
+        {
+            const string package_openupm_com = "package.openupm.com";
+            var r = manifest.scopedRegistries;
+
+            var index = r.FindIndex(x => x.name.Equals(package_openupm_com));
+
+            ScopedRegistry registry;
+
+            if (index >= 0)
+                registry = r[index];
+            else
+                r.Add(registry = new ScopedRegistry {
+                    name = package_openupm_com,
+                    url = "https://package.openupm.com"
+                });
+
+            return registry;
+        }
+
+        private static void Ensure(ScopedRegistry registry, params string[] scopes)
+        {
+            var s = registry.scopes;
+
+            foreach (var scope in scopes)
+            {
+                if (string.IsNullOrEmpty(scope))
+                    continue;
+
+                if (!s.Contains(scope))
+                    s.Add(scope);
+            }
         }
     }
 }
