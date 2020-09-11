@@ -30,7 +30,7 @@ namespace HegaCore.Editor
 
             d["com.hegaglobal.visual-novel-data"] = "https://hegaglobal:HentaiG%40mes123456@github.com/hegaglobal/VisualNovelData.git#1.4.8";
 
-            d["com.cysharp.unitask"] = "2.0.31";
+            d["com.cysharp.unitask"] = "2.0.32";
             d["com.live2d.cubism-cubismloader"] = "4.0.106";
             d["com.minhdu.uiman"] = "1.4.11";
 
