@@ -30,9 +30,9 @@ namespace HegaCore.Editor
 
             d["com.hegaglobal.visual-novel-data"] = "https://hegaglobal:HentaiG%40mes123456@github.com/hegaglobal/VisualNovelData.git#1.4.8";
 
-            d["com.cysharp.unitask"] = "2.0.32";
+            d["com.cysharp.unitask"] = "2.0.34";
             d["com.live2d.cubism-cubismloader"] = "4.0.106";
-            d["com.minhdu.uiman"] = "1.4.12";
+            d["com.minhdu.uiman"] = "1.4.13";
 
             d["com.grashaar.uiman-textmeshpro"] = "1.3.1";
             d["com.grashaar.unity-googlespreadsheet"] = "1.0.0";
@@ -47,6 +47,7 @@ namespace HegaCore.Editor
             d["com.littlebigfun.addressable-importer"] = "0.9.2";
             d["com.sabresaurus.playerprefseditor"] = "1.2.0";
             d["com.merlin.easyeventeditor"] = "1.0.3";
+            d["com.coffee.uigradients"] = "1.0.0";
 
             var registry = EnsureRegistry(manifest);
 
@@ -68,7 +69,8 @@ namespace HegaCore.Editor
                 "com.openupm",
                 "com.sabresaurus.playerprefseditor",
                 "com.zaikman.unity-editorconfig",
-                "jillejr.newtonsoft.json-for-unity"
+                "jillejr.newtonsoft.json-for-unity",
+                "com.coffee.uigradients"
             );
         }
 
