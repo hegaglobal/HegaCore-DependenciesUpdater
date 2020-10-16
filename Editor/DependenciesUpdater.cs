@@ -42,7 +42,7 @@ namespace HegaCore.Editor
             d["com.laicasaane.tinycsvparser"] = "2.6.1";
             d["com.laicasaane.unity-addressables-manager"] = "1.1.0";
             d["com.laicasaane.unity-quastatemachine"] = "1.2.0";
-            d["com.laicasaane.unity-supplements"] = "2.4.20";
+            d["com.laicasaane.unity-supplements"] = "2.4.21";
 
             d["com.littlebigfun.addressable-importer"] = "0.9.2";
             d["com.sabresaurus.playerprefseditor"] = "1.2.0";
