@@ -32,7 +32,7 @@ namespace HegaCore.Editor
 
             d["com.cysharp.unitask"] = "2.0.36";
             d["com.live2d.cubism-cubismloader"] = "4.0.107";
-            d["com.minhdu.uiman"] = "1.4.19";
+            d["com.minhdu.uiman"] = "1.4.20";
 
             d["com.grashaar.uiman-textmeshpro"] = "1.4.0";
             d["com.grashaar.unity-googlespreadsheet"] = "1.0.0";
