@@ -40,7 +40,7 @@ namespace HegaCore.Editor
             d["com.laicasaane.unity-quastatemachine"]           = "1.2.0";
             d["com.laicasaane.unity-supplements"]               = "2.4.27";
 
-            d["com.minhdu.uiman"]                               = "1.4.22";
+            d["com.minhdu.uiman"]                               = "1.4.23";
             d["com.live2d.cubism-cubismloader"]                 = "4.0.107";
 
             d["com.cysharp.unitask"]                            = "2.0.37";
