@@ -24,7 +24,7 @@ namespace HegaCore.Editor
         {
             var d = manifest.dependencies;
 
-            d["com.unity.addressables"]                             = "1.16.10";
+            d["com.unity.addressables"]                             = "1.16.13";
             d["com.unity.scriptablebuildpipeline"]                  = "1.14.1";
             d["com.unity.textmeshpro"]                              = "2.1.3";
 
