@@ -24,38 +24,38 @@ namespace HegaCore.Editor
         {
             var d = manifest.dependencies;
 
-            d["com.unity.addressables"]                         = "1.16.10";
-            d["com.unity.scriptablebuildpipeline"]              = "1.14.1";
-            d["com.unity.textmeshpro"]                          = "2.1.3";
+            d["com.unity.addressables"]                             = "1.16.10";
+            d["com.unity.scriptablebuildpipeline"]                  = "1.14.1";
+            d["com.unity.textmeshpro"]                              = "2.1.3";
 
-            d["com.hegaglobal.visual-novel-data"]               = "https://hegaglobal:HentaiG%40mes123456@github.com/hegaglobal/VisualNovelData.git#1.4.9";
+            d["com.hegaglobal.visual-novel-data"]                   = "https://hegaglobal:HentaiG%40mes123456@github.com/hegaglobal/VisualNovelData.git#1.4.9";
 
-            d["com.grashaar.uiman-textmeshpro"]                 = "1.4.0";
-            d["com.grashaar.unity-googlespreadsheet"]           = "1.0.0";
-            d["com.grashaar.unity-objectpooling"]               = "1.3.2";
+            d["com.grashaar.uiman-textmeshpro"]                     = "1.4.0";
+            d["com.grashaar.unity-google-spreadsheet-downloader"]   = "2.0.0";
+            d["com.grashaar.unity-objectpooling"]                   = "1.3.2";
 
-            d["com.laicasaane.texttyper"]                       = "3.0.2";
-            d["com.laicasaane.tinycsvparser"]                   = "2.6.1";
-            d["com.laicasaane.unity-addressables-manager"]      = "1.1.0";
-            d["com.laicasaane.unity-quastatemachine"]           = "1.2.0";
-            d["com.laicasaane.unity-supplements"]               = "2.4.28";
+            d["com.laicasaane.texttyper"]                           = "3.0.2";
+            d["com.laicasaane.tinycsvparser"]                       = "2.6.2";
+            d["com.laicasaane.unity-addressables-manager"]          = "1.1.0";
+            d["com.laicasaane.unity-quastatemachine"]               = "1.2.0";
+            d["com.laicasaane.unity-supplements"]                   = "2.4.28";
 
-            d["com.minhdu.uiman"]                               = "1.4.24";
-            d["com.live2d.cubism-cubismloader"]                 = "4.0.107";
+            d["com.minhdu.uiman"]                                   = "1.4.24";
+            d["com.live2d.cubism-cubismloader"]                     = "4.0.107";
 
-            d["com.cysharp.unitask"]                            = "2.0.37";
-            d["com.littlebigfun.addressable-importer"]          = "0.9.3";
-            d["com.sabresaurus.playerprefseditor"]              = "1.2.0";
-            d["com.merlin.easyeventeditor"]                     = "1.0.3";
-            d["com.coffee.uigradients"]                         = "1.0.0";
-            d["jillejr.newtonsoft.json-for-unity"]              = "12.0.301";
+            d["com.cysharp.unitask"]                                = "2.0.37";
+            d["com.littlebigfun.addressable-importer"]              = "0.9.3";
+            d["com.sabresaurus.playerprefseditor"]                  = "1.2.0";
+            d["com.merlin.easyeventeditor"]                         = "1.0.3";
+            d["com.coffee.uigradients"]                             = "1.0.0";
+            d["jillejr.newtonsoft.json-for-unity"]                  = "12.0.301";
 
             var registry = EnsureRegistry(manifest);
 
             Ensure(registry,
                 "com.cysharp.unitask",
                 "com.grashaar.uiman-textmeshpro",
-                "com.grashaar.unity-googlespreadsheet",
+                "com.grashaar.unity-google-spreadsheet-downloader",
                 "com.grashaar.unity-objectpooling",
                 "com.kyubuns.animetask",
                 "com.laicasaane.texttyper",
