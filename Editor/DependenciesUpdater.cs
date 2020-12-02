@@ -6,7 +6,7 @@ namespace HegaCore.Editor
 {
     public sealed partial class DependenciesUpdater : MonoBehaviour
     {
-        [MenuItem("Tools/Update HegaCore Dependencies", priority = -1)]
+        [MenuItem("Hega/Update HegaCore Dependencies", priority = -1)]
         public static void Update()
         {
             var manifestPath = Path.Combine(Application.dataPath, "..", "Packages", "manifest.json");
