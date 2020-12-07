@@ -35,10 +35,10 @@ namespace HegaCore.Editor
             d["com.grashaar.unity-objectpooling"]                   = "1.3.2";
 
             d["com.laicasaane.texttyper"]                           = "3.0.2";
-            d["com.laicasaane.tinycsvparser"]                       = "2.6.2";
+            d["com.laicasaane.tinycsvparser"]                       = "2.6.3";
             d["com.laicasaane.unity-addressables-manager"]          = "1.1.0";
             d["com.laicasaane.unity-quastatemachine"]               = "1.2.0";
-            d["com.laicasaane.unity-supplements"]                   = "2.4.28";
+            d["com.laicasaane.unity-supplements"]                   = "2.4.29";
 
             d["com.minhdu.uiman"]                                   = "1.4.24";
             d["com.live2d.cubism-cubismloader"]                     = "4.0.107";
