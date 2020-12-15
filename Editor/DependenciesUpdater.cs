@@ -30,7 +30,7 @@ namespace HegaCore.Editor
 
             d["com.hegaglobal.visual-novel-data"]                   = "https://hegaglobal:HentaiG%40mes123456@github.com/hegaglobal/VisualNovelData.git#1.4.10";
 
-            d["com.grashaar.uiman-textmeshpro"]                     = "1.4.0";
+            d["com.grashaar.uiman-textmeshpro"]                     = "1.4.1";
             d["com.grashaar.unity-google-spreadsheet-downloader"]   = "2.0.1";
             d["com.grashaar.unity-objectpooling"]                   = "1.3.2";
 
