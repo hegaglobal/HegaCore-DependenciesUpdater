@@ -24,7 +24,7 @@ namespace HegaCore.Editor
         {
             var d = manifest.dependencies;
 
-            d["com.unity.addressables"]                             = "1.16.13";
+            d["com.unity.addressables"]                             = "1.16.15";
             d["com.unity.scriptablebuildpipeline"]                  = "1.14.1";
             d["com.unity.textmeshpro"]                              = "2.1.3";
 
@@ -44,9 +44,9 @@ namespace HegaCore.Editor
             d["com.live2d.cubism-cubismloader"]                     = "4.0.107";
 
             d["com.cysharp.unitask"]                                = "2.0.37";
-            d["com.littlebigfun.addressable-importer"]              = "0.9.3";
+            d["com.littlebigfun.addressable-importer"]              = "0.9.4";
             d["com.sabresaurus.playerprefseditor"]                  = "1.2.0";
-            d["com.merlin.easyeventeditor"]                         = "1.0.3";
+            d["com.merlin.easyeventeditor"]                         = "1.0.4";
             d["com.coffee.uigradients"]                             = "1.0.0";
             d["jillejr.newtonsoft.json-for-unity"]                  = "12.0.301";
 
