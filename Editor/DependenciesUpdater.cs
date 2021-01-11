@@ -43,7 +43,7 @@ namespace HegaCore.Editor
             d["com.minhdu.uiman"]                                   = "1.4.25";
             d["com.live2d.cubism-cubismloader"]                     = "4.0.107";
 
-            d["com.cysharp.unitask"]                                = "2.0.37";
+            d["com.cysharp.unitask"]                                = "2.1.0";
             d["com.littlebigfun.addressable-importer"]              = "0.9.4";
             d["com.sabresaurus.playerprefseditor"]                  = "1.2.0";
             d["com.merlin.easyeventeditor"]                         = "1.0.4";
