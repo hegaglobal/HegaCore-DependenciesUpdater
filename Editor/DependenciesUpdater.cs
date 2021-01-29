@@ -38,7 +38,7 @@ namespace HegaCore.Editor
             d["com.laicasaane.tinycsvparser"]                       = "2.6.3";
             d["com.laicasaane.unity-addressables-manager"]          = "1.1.0";
             d["com.laicasaane.unity-quastatemachine"]               = "1.2.0";
-            d["com.laicasaane.unity-supplements"]                   = "2.5.9";
+            d["com.laicasaane.unity-supplements"]                   = "2.5.10";
 
             d["com.minhdu.uiman"]                                   = "1.4.30";
             d["com.live2d.cubism-cubismloader"]                     = "4.0.107";
@@ -49,6 +49,7 @@ namespace HegaCore.Editor
             d["com.merlin.easyeventeditor"]                         = "1.0.4";
             d["com.coffee.uigradients"]                             = "1.0.0";
             d["jillejr.newtonsoft.json-for-unity"]                  = "12.0.301";
+            d["com.oddworm.heapexplorer"]                           = "3.6.0";
 
             var registry = EnsureRegistry(manifest);
 
@@ -71,7 +72,8 @@ namespace HegaCore.Editor
                 "com.sabresaurus.playerprefseditor",
                 "com.zaikman.unity-editorconfig",
                 "jillejr.newtonsoft.json-for-unity",
-                "com.coffee.uigradients"
+                "com.coffee.uigradients",
+                "com.oddworm.heapexplorer"
             );
         }
 
