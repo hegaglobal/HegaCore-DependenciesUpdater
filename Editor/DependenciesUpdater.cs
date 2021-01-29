@@ -38,7 +38,7 @@ namespace HegaCore.Editor
             d["com.laicasaane.tinycsvparser"]                       = "2.6.3";
             d["com.laicasaane.unity-addressables-manager"]          = "1.1.0";
             d["com.laicasaane.unity-quastatemachine"]               = "1.2.0";
-            d["com.laicasaane.unity-supplements"]                   = "2.5.11";
+            d["com.laicasaane.unity-supplements"]                   = "2.5.12";
 
             d["com.minhdu.uiman"]                                   = "1.4.30";
             d["com.live2d.cubism-cubismloader"]                     = "4.0.107";
