@@ -24,8 +24,8 @@ namespace HegaCore.Editor
         {
             var d = manifest.dependencies;
 
-            d["com.unity.addressables"]                             = "1.16.15";
-            d["com.unity.scriptablebuildpipeline"]                  = "1.14.1";
+            d["com.unity.addressables"]                             = "1.16.16";
+            d["com.unity.scriptablebuildpipeline"]                  = "1.16.1";
             d["com.unity.textmeshpro"]                              = "2.1.3";
 
             d["com.hegaglobal.visual-novel-data"]                   = "https://hegaglobal:HentaiG%40mes123456@github.com/hegaglobal/VisualNovelData.git#1.4.10";
@@ -43,7 +43,7 @@ namespace HegaCore.Editor
             d["com.minhdu.uiman"]                                   = "1.4.30";
             d["com.live2d.cubism-cubismloader"]                     = "4.0.107";
 
-            d["com.cysharp.unitask"]                                = "2.1.1";
+            d["com.cysharp.unitask"]                                = "2.1.2";
             d["com.littlebigfun.addressable-importer"]              = "0.9.4";
             d["com.sabresaurus.playerprefseditor"]                  = "1.2.0";
             d["com.merlin.easyeventeditor"]                         = "1.0.4";
