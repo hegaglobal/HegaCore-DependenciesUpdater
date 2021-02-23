@@ -26,7 +26,7 @@ namespace HegaCore.Editor
 
             d["com.unity.addressables"]                             = "1.16.16";
             d["com.unity.scriptablebuildpipeline"]                  = "1.16.1";
-            d["com.unity.textmeshpro"]                              = "2.1.3";
+            d["com.unity.textmeshpro"]                              = "2.1.4";
 
             d["com.hegaglobal.visual-novel-data"]                   = "https://hegaglobal:HentaiG%40mes123456@github.com/hegaglobal/VisualNovelData.git#1.4.10";
 
