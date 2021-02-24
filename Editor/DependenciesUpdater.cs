@@ -48,7 +48,7 @@ namespace HegaCore.Editor
             d["com.sabresaurus.playerprefseditor"]                  = "1.2.0";
             d["com.merlin.easyeventeditor"]                         = "1.0.4";
             d["com.coffee.uigradients"]                             = "1.0.0";
-            d["jillejr.newtonsoft.json-for-unity"]                  = "12.0.301";
+            d["jillejr.newtonsoft.json-for-unity"]                  = "12.0.302";
             d["com.oddworm.heapexplorer"]                           = "3.6.0";
 
             var registry = EnsureRegistry(manifest);
