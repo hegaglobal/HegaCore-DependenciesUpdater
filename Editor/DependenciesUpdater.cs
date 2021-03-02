@@ -50,7 +50,7 @@ namespace HegaCore.Editor
             d["com.coffee.uigradients"]                             = "1.0.0";
             d["jillejr.newtonsoft.json-for-unity"]                  = "12.0.302";
             d["com.oddworm.heapexplorer"]                           = "3.6.0";
-            d["com.needle.demystify"]                               = "1.0.1-pre.3";
+            d["com.needle.demystify"]                               = "1.0.1-pre.4";
 
             var registry = EnsureRegistry(manifest);
 
