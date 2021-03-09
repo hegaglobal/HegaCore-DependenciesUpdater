@@ -38,7 +38,7 @@ namespace HegaCore.Editor
             d["com.laicasaane.tinycsvparser"]                       = "2.6.3";
             d["com.laicasaane.unity-addressables-manager"]          = "1.1.0";
             d["com.laicasaane.unity-quastatemachine"]               = "1.2.0";
-            d["com.laicasaane.unity-supplements"]                   = "2.5.24";
+            d["com.laicasaane.unity-supplements"]                   = "2.5.25";
 
             d["com.minhdu.uiman"]                                   = "1.4.30";
             d["com.live2d.cubism-cubismloader"]                     = "4.0.200";
@@ -50,7 +50,7 @@ namespace HegaCore.Editor
             d["com.coffee.uigradients"]                             = "1.0.0";
             d["jillejr.newtonsoft.json-for-unity"]                  = "12.0.302";
             d["com.oddworm.heapexplorer"]                           = "3.6.0";
-            d["com.needle.demystify"]                               = "1.0.1-pre.4";
+            d["com.needle.demystify"]                               = "1.2.0-exp.2";
 
             var registry = EnsureRegistry(manifest);
 
