@@ -50,11 +50,12 @@ namespace HegaCore.Editor
             d["com.coffee.uigradients"]                             = "1.0.0";
             d["jillejr.newtonsoft.json-for-unity"]                  = "12.0.302";
             d["com.oddworm.heapexplorer"]                           = "3.6.0";
-            d["com.needle.demystify"]                               = "1.2.0-exp.2";
+            d["com.needle.demystify"]                               = "1.2.0-exp.4";
 
             var registry = EnsureRegistry(manifest);
 
             Ensure(registry,
+                "com.coffee.uigradients",
                 "com.cysharp.unitask",
                 "com.grashaar.uiman-textmeshpro",
                 "com.grashaar.unity-google-spreadsheet-downloader",
@@ -69,12 +70,13 @@ namespace HegaCore.Editor
                 "com.live2d.cubism-cubismloader",
                 "com.merlin.easyeventeditor",
                 "com.minhdu.uiman",
+                "com.needle.demystify",
+                "com.needle.editorpatching",
+                "com.oddworm.heapexplorer",
                 "com.openupm",
                 "com.sabresaurus.playerprefseditor",
                 "com.zaikman.unity-editorconfig",
-                "jillejr.newtonsoft.json-for-unity",
-                "com.coffee.uigradients",
-                "com.oddworm.heapexplorer"
+                "jillejr.newtonsoft.json-for-unity"
             );
         }
 
