@@ -25,10 +25,10 @@ namespace HegaCore.Editor
             var d = manifest.dependencies;
 
             d["com.unity.addressables"]                             = "1.16.16";
-            d["com.unity.scriptablebuildpipeline"]                  = "1.16.1";
+            d["com.unity.scriptablebuildpipeline"]                  = "1.17.0";
             d["com.unity.textmeshpro"]                              = "2.1.4";
 
-            d["com.hegaglobal.visual-novel-data"]                   = "https://hegaglobal:HentaiG%40mes123456@github.com/hegaglobal/VisualNovelData.git#1.4.10";
+            d["com.hegaglobal.visual-novel-data"]                   = "https://github.com/hegaglobal/VisualNovelData.git#1.4.10";
 
             d["com.grashaar.uiman-textmeshpro"]                     = "1.4.1";
             d["com.grashaar.unity-google-spreadsheet-downloader"]   = "2.0.1";
@@ -43,13 +43,13 @@ namespace HegaCore.Editor
             d["com.minhdu.uiman"]                                   = "1.4.31";
             d["com.live2d.cubism-cubismloader"]                     = "4.0.200";
 
-            d["com.cysharp.unitask"]                                = "2.1.2";
+            d["com.cysharp.unitask"]                                = "2.2.4";
             d["com.littlebigfun.addressable-importer"]              = "0.9.4";
             d["com.sabresaurus.playerprefseditor"]                  = "1.2.0";
             d["com.merlin.easyeventeditor"]                         = "1.0.4";
             d["com.coffee.uigradients"]                             = "1.0.0";
-            d["jillejr.newtonsoft.json-for-unity"]                  = "12.0.302";
-            d["com.oddworm.heapexplorer"]                           = "3.6.0";
+            d["jillejr.newtonsoft.json-for-unity"]                  = "13.0.102";
+            d["com.oddworm.heapexplorer"]                           = "3.7.0";
             d["com.needle.demystify"]                               = "1.2.0-exp.4";
 
             var registry = EnsureRegistry(manifest);
