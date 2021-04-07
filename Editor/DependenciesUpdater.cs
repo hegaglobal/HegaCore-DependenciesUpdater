@@ -41,7 +41,7 @@ namespace HegaCore.Editor
             d["com.laicasaane.unity-supplements"]                   = "2.5.25";
 
             d["com.minhdu.uiman"]                                   = "1.4.31";
-            d["com.live2d.cubism-cubismloader"]                     = "4.0.200";
+            d["com.live2d.cubism-cubismloader"]                     = "4.0.201";
 
             d["com.cysharp.unitask"]                                = "2.2.4";
             d["com.littlebigfun.addressable-importer"]              = "0.9.4";
