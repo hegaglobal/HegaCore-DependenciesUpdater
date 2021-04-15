@@ -49,7 +49,6 @@ namespace HegaCore.Editor
             d["com.merlin.easyeventeditor"]                         = "1.0.4";
             d["com.coffee.uigradients"]                             = "1.0.0";
             d["jillejr.newtonsoft.json-for-unity"]                  = "13.0.102";
-            d["com.oddworm.heapexplorer"]                           = "3.7.0";
             d["com.needle.demystify"]                               = "1.2.0-exp.4";
 
             var registry = EnsureRegistry(manifest);
@@ -72,7 +71,6 @@ namespace HegaCore.Editor
                 "com.minhdu.uiman",
                 "com.needle.demystify",
                 "com.needle.editorpatching",
-                "com.oddworm.heapexplorer",
                 "com.openupm",
                 "com.sabresaurus.playerprefseditor",
                 "com.zaikman.unity-editorconfig",
