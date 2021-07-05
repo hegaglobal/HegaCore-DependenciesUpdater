@@ -32,7 +32,7 @@ namespace HegaCore.Editor
 
             d["com.grashaar.uiman-textmeshpro"]                     = "1.4.1";
             d["com.grashaar.unity-google-spreadsheet-downloader"]   = "2.0.1";
-            d["com.grashaar.unity-objectpooling"]                   = "1.4.1";
+            d["com.grashaar.unity-objectpooling"]                   = "1.5.0";
 
             d["com.laicasaane.texttyper"]                           = "3.0.2";
             d["com.laicasaane.tinycsvparser"]                       = "2.6.3";
