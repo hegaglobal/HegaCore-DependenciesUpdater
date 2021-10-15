@@ -27,56 +27,45 @@ namespace HegaCore.Editor
         {
             var d = manifest.dependencies;
 
-            d["com.unity.addressables"]                             = "1.17.17";
+            d["com.unity.addressables"]                             = "1.16.19";
             d["com.unity.scriptablebuildpipeline"]                  = "1.17.0";
-            d["com.unity.textmeshpro"]                              = "2.1.4";
+            d["com.unity.textmeshpro"]                              = "2.1.6";
 
             d["com.hegaglobal.visual-novel-data"]                   = "https://github.com/hegaglobal/VisualNovelData.git#1.4.10";
 
             d["com.grashaar.uiman-textmeshpro"]                     = "1.4.1";
             d["com.grashaar.unity-google-spreadsheet-downloader"]   = "2.0.1";
-            d["com.grashaar.unity-objectpooling"]                   = "1.4.0";
+            d["com.grashaar.unity-objectpooling"]                   = "1.5.0";
 
-            d["com.laicasaane.texttyper"]                           = "3.0.2";
+            d["com.laicasaane.texttyper"]                           = "3.1.0";
             d["com.laicasaane.tinycsvparser"]                       = "2.6.3";
-            d["com.laicasaane.unity-addressables-manager"]          = "1.2.0";
-            d["com.laicasaane.unity-quastatemachine"]               = "1.2.0";
-            d["com.laicasaane.unity-supplements"]                   = "2.5.25";
+            d["com.laicasaane.unity-addressables-manager"]          = "1.2.1";
+            d["com.laicasaane.unity-supplements"]                   = "2.6.0";
 
             d["com.minhdu.uiman"]                                   = "1.4.31";
-            d["com.live2d.cubism-cubismloader"]                     = "4.0.201";
+            d["com.live2d.cubism-cubismloader"]                     = "4.0.301";
 
-            d["com.cysharp.unitask"]                                = "2.2.4";
-            d["com.littlebigfun.addressable-importer"]              = "0.9.4";
-            d["com.sabresaurus.playerprefseditor"]                  = "1.2.0";
+            d["com.cysharp.unitask"]                                = "2.2.5";
+            d["com.littlebigfun.addressable-importer"]              = "0.11.0";
             d["com.merlin.easyeventeditor"]                         = "1.0.4";
-            d["com.coffee.uigradients"]                             = "1.0.0";
             d["jillejr.newtonsoft.json-for-unity"]                  = "13.0.102";
-            d["com.needle.demystify"]                               = "1.2.0-exp.4";
 
             var registry = EnsureRegistry(manifest);
 
             Ensure(registry,
-                "com.coffee.uigradients",
+                "com.openupm",
                 "com.cysharp.unitask",
+                "com.minhdu.uiman",
                 "com.grashaar.uiman-textmeshpro",
                 "com.grashaar.unity-google-spreadsheet-downloader",
                 "com.grashaar.unity-objectpooling",
-                "com.kyubuns.animetask",
                 "com.laicasaane.texttyper",
                 "com.laicasaane.tinycsvparser",
                 "com.laicasaane.unity-addressables-manager",
-                "com.laicasaane.unity-quastatemachine",
                 "com.laicasaane.unity-supplements",
                 "com.littlebigfun.addressable-importer",
                 "com.live2d.cubism-cubismloader",
                 "com.merlin.easyeventeditor",
-                "com.minhdu.uiman",
-                "com.needle.demystify",
-                "com.needle.editorpatching",
-                "com.openupm",
-                "com.sabresaurus.playerprefseditor",
-                "com.zaikman.unity-editorconfig",
                 "jillejr.newtonsoft.json-for-unity"
             );
         }
