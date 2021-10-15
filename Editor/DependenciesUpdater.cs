@@ -9,15 +9,18 @@ namespace HegaCore.Editor
         [MenuItem("Hega/Update HegaCore Dependencies", priority = -1)]
         public static void Update()
         {
-            var manifestPath = Path.Combine(Application.dataPath, "..", "Packages", "manifest.json");
-            var filePath = Path.GetFullPath(manifestPath);
-            var json = File.ReadAllText(filePath);
-            var manifest = new Manifest().Deserialize(SimpleJSON.Parse(json));
-            Ensure(manifest);
+            if (EditorUtility.DisplayDialog("Update", "Chac chan update dependencies khong ?", "Up di", "Khoan !!"))
+            {
+                var manifestPath = Path.Combine(Application.dataPath, "..", "Packages", "manifest.json");
+                var filePath = Path.GetFullPath(manifestPath);
+                var json = File.ReadAllText(filePath);
+                var manifest = new Manifest().Deserialize(SimpleJSON.Parse(json));
+                Ensure(manifest);
 
-            File.WriteAllText($"{filePath}", manifest.Serialize().ToString(2));
+                File.WriteAllText($"{filePath}", manifest.Serialize().ToString(2));
 
-            AssetDatabase.Refresh();
+                AssetDatabase.Refresh();
+            }
         }
 
         private static void Ensure(Manifest manifest)
